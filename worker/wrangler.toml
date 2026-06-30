@@ -1,0 +1,14 @@
+name = "lol-schedule-worker"
+main = "index.js"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "lol-schedule-db"
+database_id = ""
+
+[triggers]
+crons = ["* * * * *"]
+
+[vars]
+SYNC_TOKEN = "doi-chuoi-bi-mat-cua-ban"

@@ -1,0 +1,10 @@
+{
+  "name": "lol-schedule-worker",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler d1 migrations apply DB --remote && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
